@@ -68,7 +68,7 @@ class ProjectMetricSlackTrends
   end
 
   def self.credentials
-    ['token','channel']
+    [:token,:channel]
   end
 
   private
